@@ -8,5 +8,5 @@ Método Estatístico: ANOVA de Medidas Repetidas
 
 Software Estastítico: JASP v.0.19
 
-Conteúdo da pasta: Banco de dados em excel, arquivo Jasp com resultados, apresentação em PPT e código em Python.
+Conteúdo da pasta: Banco de dados (xlsx), Arquivo Jasp com resultados, apresentação em PPT e código em Python.
 
