@@ -113,9 +113,10 @@ print('p-value of the sphericity test',ANOVA['p-spher'])
 print('sphericity of the data (boolean)',ANOVA['sphericity'])
 
 # Como não há esfericidade nas variâncias é preciso analisar o p-value da ANOVA com correção
-# de Greenhouse-Geisser que é 0.000015. Ou seja, a alteração encontrada 
+# de Greenhouse-Geisser que é 0.000015. 
+# Ou seja, existe diferença entre as médias de hemoglobina em relação ao tempo.
 
-#%% Post HOC
+#%% Post Hoc para entender as interações entre os grupos no tempo
 
 posthoc = pg.pairwise_tests(dv='Hemo', between=['Grupo', 'Tempo'], data=Hemo, 
                             alpha=0.05, padjust='bonf', correction='auto')
